@@ -22,7 +22,7 @@ const NoteForm = ({ addNote }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="form-group">
-        <label htmlFor="title">Título</label>
+        <label htmlFor="title">TÃ­tulo</label>
         <input
           id="title"
           className="form-control"
