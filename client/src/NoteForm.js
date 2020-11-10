@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 const NoteForm = ({ addNote }) => {
 
-  // state hooks para el form
+  // state hook para el form
   const [title, setTitle] = useState('');
   const [text, setText] = useState('');
 
-  // handler para el submit
+  // handlers
   const handleSubmit = e => {
     e.preventDefault();
     addNote({
